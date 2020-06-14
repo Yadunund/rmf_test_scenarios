@@ -25,7 +25,7 @@ ros2 run demos airport_terminal_spawn_robots.sh
 # Scenarios
 To launch a scenario,
 ```
-ros2 launch scenarios office_conflict.launch.xml
+ros2 launch scenarios office_conflict1.launch.xml
 ```
 
 Note: To make the airport scenarios run smoother, delete all the model listings under `models:` tag inside `airport_terminal.building.yaml`. Then rebuild `rmf_demo_maps` package.
