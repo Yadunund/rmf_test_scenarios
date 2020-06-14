@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <executable cmd="ros2 run dp2_test request_loop -s magni_cssd -f chart_nurse_desk -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s cssd_pickup -f cssd_2 -r mir100 -n 50" output="both"/>
+</launch>

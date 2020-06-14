@@ -1,0 +1,5 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <executable cmd="ros2 run dp2_test request_loop -s cssd_3 -f ot_dropoff -r mir100 -n 50" output="both"/>
+</launch>

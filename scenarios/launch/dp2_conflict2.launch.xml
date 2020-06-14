@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <executable cmd="ros2 run dp2_test request_loop -s bed_1 -f bed_4 -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s bed_4 -f bed_1 -r magni -n 50" output="both"/>
+</launch>

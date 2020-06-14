@@ -1,0 +1,5 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <executable cmd="ros2 run rmf_demo_tasks request_delivery -p pantry -d hardware_2 -r magni" output="both"/>
+</launch>

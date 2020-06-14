@@ -1,0 +1,7 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <executable cmd="ros2 run dp2_test request_loop -s magni_return_approach -f magni_cssd_approach -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s magni_nurse_desk_approach -f magni_cssd -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s cssd_3 -f cssd_2 -r mir100 -n 50" output="both"/>
+</launch>

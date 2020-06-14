@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <executable cmd="ros2 run dp2_test request_loop -s magni_n09 -f magni_s07 -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s magni_n11 -f magni_s07 -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s junction_n11 -f magni_n10 -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s magni_n10 -f magni_n09 -r magni -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s junction_north_west -f junction_south_west -r mir100 -n 50" output="both"/>
+  <executable cmd="ros2 run dp2_test request_loop -s n14 -f junction_north_west -r mir100 -n 50" output="both"/>
+</launch>
