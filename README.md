@@ -2,6 +2,8 @@
 Launch files to test fleet adapters with various requests
 Clone this repo into the workspace and build
 
+Note: RAM usage seems to spike during tough negotiations.
+
 ## DP2 world
 checkout `develop` branch of `sharp-rmf/rmf_dp2`
 ```bash
